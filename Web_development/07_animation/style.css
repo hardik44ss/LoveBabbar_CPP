@@ -1,0 +1,45 @@
+body{
+    background-color:  black;
+}
+#first{
+    height: 200px;
+    width: 196px;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid blue ;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: anon 2s ease-in 1s infinite ;
+    animation-direction: alternate; /*NORmal reverse alternate alternate-reverse*/
+    /* animation: move 2s ease-in 1s infinite ; */
+}
+#box{
+        height: 200px;
+        width: 196px;
+        background-color: rgb(14, 255, 179);
+        border: 2px solid blue ;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 100px;
+        left: 400px;
+
+        animation: alag 2s ease-in 1s infinite ;
+        animation-direction: alternate; /*NORmal reverse alternate alternate-reverse*/
+        /* animation: move 2s ease-in 1s infinite ; */
+    }
+
+@keyframes anon{
+    from {background-color: lightgoldenrodyellow ;top: 0px;}
+    to {background-color: rgb(58, 36, 139);top: 600px;}
+}
+@keyframes alag{
+    0% {background-color: rgb(14, 255, 179) ;left: 400px;top: 200px;}
+    25%{background-color: rgb(239, 14, 14);left: 208px;top: 200px;}
+    100%{background-color: rgb(14, 44, 239);left: 208px;top: 600px;}
+}
+

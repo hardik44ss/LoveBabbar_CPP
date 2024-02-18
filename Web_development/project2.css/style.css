@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    height: 60px;
+    background-color: rgb(48, 26, 7);
+
+}
+div{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+a{
+    margin: auto;
+    color: #f08808;   text-decoration: none;
+}

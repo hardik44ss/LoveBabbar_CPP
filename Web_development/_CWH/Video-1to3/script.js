@@ -1,0 +1,1 @@
+alert("Welcome , To Hardik site \n Click 'ok' to continue")

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Block vs Inline Elements</title>
+    <style>
+        .block {
+            background-color: lightblue;
+            border: 1px solid blue;
+            padding: 10px;
+            margin: 10px;
+        }
+        .inline {
+            background-color: lightyellow;
+            border: 1px solid orange;
+            padding:.5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="block">This is a Block-Level Element (h1)</h1>
+    <p class="block">This is a Block-Level Element (p). It creates a new paragraph and takes up the full width.</p>
+
+    <div class="block">This is a Block-Level Element (div). It's a container for other elements and creates a block on the page.</div>
+
+    <h2 class="block">Inline elements * or second level block elements</h2>
+    
+    <span class="inline">This is an Inline Element (span). It flows within the content and doesn't create a new block.</span>
+
+    <a class="inline" href="https://www.example.com">This is an Inline Element (a). It's a hyperlink.</a>
+
+    <strong class="inline">This is an Inline Element (strong). It makes text bold.</strong>
+
+    <br class="block">This is a Block-Level Element (br). It creates a line break and moves content to the next line.
+
+    <em class="inline">This is an Inline Element (em). It emphasizes text.</em>
+
+    <p class="block">Remember that block-level elements create new blocks, while inline elements flow within the content.</p>
+</body>
+</html>

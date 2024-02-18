@@ -1,0 +1,16 @@
+.divfirst{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indiv{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

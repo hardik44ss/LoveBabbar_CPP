@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+    padding-left: 5%;
+    
+
+}
+.amazon{
+    color: #f08804;
+    font-size: 25px;
+    /* margin-left: 5%; */
+}
+a{
+    margin-right: 200px;
+}
+button{
+    background-color: #f08804;
+}

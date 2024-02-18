@@ -1,0 +1,88 @@
+HTML : Hyper text markup language
+used to make websites
+css used to decorate the web page it adds desighn and structure to the ste
+css used to stylish our site
+Javascript to add "logic" to our programming
+(i.e. : which one will show first then after that what is show, MOuse gesture controling)
+ HTML : our skelton
+ CSS  : our veins and chamdi
+ JS   : cough , speaking, gestures, walking
+
+ src=sourcce
+
+
+Shortcut , Alt + ^ (upper arrow) to edit line
+'font colour' = colour
+background  = background-color
+
+<!Doctype html> --> specify a html document
+<html> --> root of an html page
+<head> --> contains meta data
+<title>Hardik's website </title>
+<body>  -->THe main body of the page rendered by the browser
+<h1>This is the heading</h1> --> most importnt
+heading is most important to be a good developers
+
+<h2>This is less </h2> --> lil bit important 
+<h3> going on</h3>
+as it going downward font size will be smaller
+(* never use heading file to change font size)
+
+
+<p>paragraph tag in the page</p>
+</body> --> closing body tag
+</html>
+HTML element= start tag+ content + end tag
+<body>
+    all the content 
+</body>
+ 
+USE of anchor ref = to go to a site (HTML attribute)
+<a href="https://t.me">click here to go to telegram</a>
+
+RANDOM paragrapgh
+<p>lorem35 </p> --> to make random lines
+
+The image
+<img src="https://th.bing.com/th/id/R.a22c23ba50c9beee4b2dab8a5c70a083?rik=rbHzk%2fxQ1cLitg&riu=http%3a%2f%2fimages5.fanpop.com%2fimage%2fphotos%2f29000000%2fFunny-Animals-animal-humor-29016374-1600-1200.jpg&ehk=sznRkOoeq3F1YDBTBOGoiqiwAJwPM98y2NbU04RVwBs%3d&risl=&pid=ImgRaw&r=0" alt="human text" width ="124px" height ="345">
+
+<!-- Bold italic  tags -->
+<b>This is bold</b>
+<br> = <!--  This is for next line -->
+
+<i>This is italic font</i>
+
+For underline
+<u>dfhksd  dkjf</u> 
+<hr> <!-- for hoeizontal line -->
+
+For big text and small text
+<big>This is big</big>
+<small>Thiss is small</small>
+
+To write under a letter or upper side(sQUARE)
+<p>CO<sub>2</sub></p>
+<p>ax<sup>2</sup> + bx + c</p>
+
+Pre tag( as it is print)
+<pre>This mean that ==It printss as it as write
+   djklfj 
+   sdf dkj fjkdfh 
+   ahr f 
+
+
+</pre>
+ There are some arrow code which we can use 
+ UNICODE= https://www.w3schools.com/charsets/ref_utf_arrows.asp
+( →	)  == 8594	2192	&rarr;	RIGHTWARDS ARROW
+
+Dummy words = Lorem(word)
+p = paragraph syntex
+SEO: search engine optimisation
+
+ID= unique identifier'
+CLass= it gives same name to multiple html elements
+    -> we can give multiple classes by giving
+       SPACE  i.e.=class"red bg-yellow"
+       css-.red{}
+       css- #div{}

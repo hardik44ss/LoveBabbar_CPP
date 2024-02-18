@@ -1,0 +1,41 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+} */
+
+.light1{
+    position: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: red;
+    /* /* margin-left: 10px; */
+    margin: auto;
+    margin-bottom: 8px; 
+}
+
+.light2{
+    position: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    /* /* margin-left: 10px; */
+    margin: auto;
+    margin-bottom: 8px; 
+}
+.light3{
+    position: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: green;
+    margin: auto;
+}
+.traffic{
+    background-color: black;
+    width: 120px;
+    padding: 10px;
+}

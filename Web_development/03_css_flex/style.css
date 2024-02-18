@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    /* width: 500px; They present only in container not outside  */
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    height: 200px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex; /*sare element andar hi rahenge _ height width kitni bhi ho */
+    /* flex-direction: row-reverse; It reverse the direction */
+    flex-direction: row;
+    justify-content: space-evenly; 
+    /*Direction reverse nahi hogi ) 
+    start : right wall se start*/
+    /* justify-content: space-around; Space around means that elements will be placed with equal -- space at end is half the space b/w content */
+    /* justify-content: space-evenly; it mean equal */
+    ;
+    margin: auto;
+}
+#box1{
+    background-color: lightblue;
+}
+#box2{
+    background-color: lightgreen;
+}
+#box3{
+    background-color: lightpink;
+}
+#box4{
+    background-color: lightseagreen;
+}
+#box5{
+    background-color: lightyellow;
+}

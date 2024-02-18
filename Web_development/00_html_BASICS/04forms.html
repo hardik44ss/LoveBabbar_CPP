@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+
+<body>
+    <!-- <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="placeholder" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" 
+        placeholder="Enter your email" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+
+        <input type="submit" value="Submit">
+    </form> -->
+    <!-- Label -> Input -> Placeholder  -->
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="placeholder">
+    </form>
+
+    <!-- Type : Password to hide text inside the box  -->
+    <form>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+    </form>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+    </form>
+
+    <!-- Checkbox type value yes -->
+    <form>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label>
+    </form>
+    <!-- Radio type  -->
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </form>
+    <!-- To select from multiple options -->
+    <form>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="in">India</option>
+        </select>
+    </form>
+
+    <!-- Type : date   one more is type week also -->
+    <form>
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate">
+    </form>
+
+    <!-- Type : file  -->
+    <form enctype="multipart/form-data">
+        <label for="file">Choose a file:</label>
+        <input type="file" id="file" name="file">
+    </form>
+
+    <!-- type : Range can be used in temperature , price low to high , volume , brightness --> 
+    <form>
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100">
+    </form>
+    <!-- <form>
+        <label for="phno.">Mobile Number :</label>
+        <input type="range" id="phno." name="volume" min="0" max="100000000000">
+    </form> -->
+    
+    <!-- Type : Color  -->
+    <form>
+        <label for="color">Choose a color:</label>
+        <input type="color" id="color" name="color">
+    </form>
+    
+    <!-- Type : Number Quantity (min to max)  -->
+    <form>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" >
+    </form>
+    
+    <!-- Type : URL  -->
+    <form>
+        <label for="website"> Enter Website:</label>
+        <input type="url" id="website" name="website">
+    </form>
+
+    <!-- TYpe : search  -->
+    <form>
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search">
+    </form>
+    
+    <!-- Type : Submit  -->
+    <form>
+        <input type="Submit" name="Submit" id="Submit">
+    </form>
+
+    <!-- type : image tag -->
+    <form >
+        <input type="image" name="up" id="up" src="subscribe_PNG46.png" width="200">
+</form>
+    <hr><br>
+
+<!-- FIELDSET Box ban jata h ( for label : LEGEND tag) -->
+    <form >
+        <fieldset>
+                <legend>HTML form for data</legend>
+                <label for="name ">Enter  your name : </label>
+                <input type="text" name="name" id="name" placeholder="name">
+                <br>
+                <label for="birth">Enter birthdate</label>
+                <input type="date" name="birth" id="birth">
+                <br>
+                <select name="dish" id="dish">
+                    <option value="maggie"> Maggie</option>
+                    <option value="CD">COld drinks</option>
+                    <option value="Daru">Daru</option>
+                </select>
+                <br></br>
+                <input type="submit" name="submit" id="submit">
+                <br>
+                <textarea name="review" id="review" cols="19" rows="4">Review</textarea>
+                
+        </fieldset>
+    </form>
+
+
+
+</body>
+
+</html>

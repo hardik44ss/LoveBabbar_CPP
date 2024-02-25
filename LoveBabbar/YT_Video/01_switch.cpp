@@ -23,7 +23,7 @@ class calculator {
 class EvenOdd{
     public:
         bool evod (int a){
-            if(a&1){// if a&1 == 1 if condition true
+            if(a&1){// if a&1 == 1 if condition true = odd
                 return 0;
             }
             else{

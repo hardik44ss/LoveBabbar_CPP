@@ -9,8 +9,7 @@ void finddupl(int arr[],int n){
                 break;
             }
         }
-    }
-    
+    } 
 }
 
 int main () 
